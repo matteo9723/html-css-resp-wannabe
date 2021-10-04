@@ -61,3 +61,21 @@ img{
 }
 
 /*PARTE RESPONSIVE*/
+ 
+@media (max-width:480px){
+    #lezioni .row > .left, 
+    #lezioni .row > .right{
+    width: 100%;
+    float: left;
+  }
+
+    body{
+      width: 100%;
+    }
+
+  .container.grey{
+    background-color: lightpink;
+    min-width: 480px;
+    
+  }
+}
